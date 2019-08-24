@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node_modules/.bin/nodemon"
+    "start": "node_modules/.bin/nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.2.0",
     "jest": "^24.9.0",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
